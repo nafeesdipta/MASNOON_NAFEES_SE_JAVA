@@ -4,4 +4,26 @@
   <artifactId>SE_JAVA_SIT_ID</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>SE_JAVA_SIT</name>
+  
+   <parent>
+    	<groupId>org.springframework.boot</groupId>
+    	<artifactId>spring-boot-starter-parent</artifactId>
+    	<version>1.5.9.RELEASE</version>
+    	
+ </parent>
+  
+   <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-web -->
+ <dependencies>
+  <dependency>
+    	<groupId>org.springframework.boot</groupId>
+    	<artifactId>spring-boot-starter-web</artifactId>
+	</dependency>
+ </dependencies>
+	
+
 </project>
+
+
+ 
+
+ 
