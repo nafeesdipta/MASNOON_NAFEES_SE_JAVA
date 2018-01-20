@@ -1,1 +1,1 @@
-[[{"location":"/usr/lib/jvm/java-8-openjdk-amd64","type":"JRE","hints":{"EXECUTION_ENVIRONMENT":"JavaSE-1.6"}},"jre:jre:1.6.0"],[{"location":"/home/nafees/workspace-sts-3.8.4.RELEASE/SE_JAVA_SIT_ID","type":"PROJECT","hints":{"PROJECT_NAME":"SE_JAVA_SIT_ID"}},"Sweet_Itech:SE_JAVA_SIT_ID:0.0.1"]]
+[[{"location":"/home/nafees/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar","type":"JAR","hints":{}},"org.hibernate.javax:org.hibernate.javax.persistence.hibernate-jpa-2.1-api:1.0.0"]]
