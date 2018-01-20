@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Menu</title>
+    <link rel="stylesheet" href="../assets/styles/menu.css">
+</head>
+
+<body>
+    <style>
+        body {
+            background-size: cover;
+            background-image: url("../assets/resources/images/a.jpg")
+        }
+    </style>
+    <ul>
+        <li>
+            <a href="#home">Home</a>
+        </li>
+        <li>
+            <a href="http://www.prothomalo.com/" target="_blank">Today's News</a>
+
+        </li>
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">Place & Order</a>
+            <div class="dropdown-content">
+                <a href="c.html" target="_self"> Place Order</a>
+                <a href="ja.html" target="_self">Price List</a>
+            </div>
+        </li>
+
+    </ul>
+
+    <h3>Website is underconstruction !!!</h3>
+    <p>Hover over the "Place & Order" link to see the dropdown menu. These Images are resizable.</p>
+    <p>Resize your Window to see the effects</p>
+    <!--
+    <div class="polaroid">
+        <img src="../assets/resources/images/f1.jpeg" alt="Food" style="width:100%">
+        <div class="container">
+            <p>Item 1</p>
+        </div>
+    </div>
+-->
+
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="../assets/resources/images/f1.jpeg">
+                <img src="../assets/resources/images/f1.jpeg" alt="Food 1" width="300" height="200">
+            </a>
+            <div class="desc">Add a description of the image here</div>
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="../assets/resources/images/f2.jpg">
+                <img src="../assets/resources/images/f2.jpg" alt="Food 2" width="300" height="200">
+            </a>
+            <div class="desc">Add a description of the image here</div>
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="../assets/resources/images/f3.jpg">
+                <img src="../assets/resources/images/f3.jpg" alt="Food 3" width="300" height="200">
+            </a>
+            <div class="desc">Add a description of the image here</div>
+        </div>
+    </div>
+
+    <div class="clearfix"></div>
+    <div>
+        <h2>Click Here to Show Current Date & Time</h2>
+        <button type="button" onclick="document.getElementById('demo').innerHTML= Date()">
+Click Me</button>
+        <p id="demo"></p>
+    </div>
+    <div class="map">
+        <p>Map of the location</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.9735390252254!2d90.37562560067809!3d23.748322994551884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjPCsDQ0JzU0LjAiTiA5MMKwMjInMzYuOSJF!5e0!3m2!1sen!2sbd!4v1515393048327"
+            width="600" height="450" frameborder="0" style="border:0" allowfullscreen>
+        </iframe>
+    </div>
+
+</body>
+
+</html>
