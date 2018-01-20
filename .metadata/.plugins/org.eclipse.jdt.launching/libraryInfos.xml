@@ -1,5 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <libraryInfos>
+<libraryInfo home="/home/nafees/jdk1.8.0_141" version="1.8.0_141">
+<bootpath>
+<entry path="/home/nafees/jdk1.8.0_141/jre/lib/resources.jar"/>
+<entry path="/home/nafees/jdk1.8.0_141/jre/lib/rt.jar"/>
+<entry path="/home/nafees/jdk1.8.0_141/jre/lib/sunrsasign.jar"/>
+<entry path="/home/nafees/jdk1.8.0_141/jre/lib/jsse.jar"/>
+<entry path="/home/nafees/jdk1.8.0_141/jre/lib/jce.jar"/>
+<entry path="/home/nafees/jdk1.8.0_141/jre/lib/charsets.jar"/>
+<entry path="/home/nafees/jdk1.8.0_141/jre/lib/jfr.jar"/>
+<entry path="/home/nafees/jdk1.8.0_141/jre/classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="/home/nafees/jdk1.8.0_141/jre/lib/ext"/>
+<entry path="/usr/java/packages/lib/ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="/home/nafees/jdk1.8.0_141/jre/lib/endorsed"/>
+</endorsedDirs>
+</libraryInfo>
 <libraryInfo home="/usr/lib/jvm/java-8-openjdk-amd64" version="1.8.0_151">
 <bootpath>
 <entry path="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar"/>
