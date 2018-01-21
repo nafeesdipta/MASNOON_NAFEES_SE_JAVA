@@ -19,4 +19,21 @@ public class FirstController {
 	public String hi(){
 		return "Hello World!!! from Rest Controller";
 	}
+	@GetMapping("/alltasks")
+	public String allTasks(){
+		return taskService.findAll().toString();
+	}
+
+	@GetMapping("/save-task")
+	public String saveTask(@RequestParam String ram, @RequestParam String motherboard, @RequestParam String graphicscard){
+	Task task =  new Task(ram, motherboard, graphicscard, false);
+	taskService.save(task);	
+	return "Task saved!";
+	}
+	
+	@GetMapping("/delete-task")
+	public String saveTask(@RequestParam int id){
+		taskService.delete(id);
+		return "Task deleted!";
+	}
 }

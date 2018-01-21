@@ -64,7 +64,20 @@
 		</table>
 	
 	</div>
-
+	<div class="container text-center">
+		<h3> Manage Product</h3>
+		<form class="form-horizontal" method="POST" action="saveproduct">
+			<input type="hidden" name="id" value="${task.id}" />
+			<div class="control-label col-md-3">RAM</label>
+			<div class="col-md-5">
+			<input type="text" class="form-control" name="ram" value="${task.ram}"/>
+			
+			</div>
+			
+			</div>
+		</form>
+	
+	</div>
 </div>
 	<script src="static/js/jquery-1.11.1.min.js"></script>
 	<script src="static/js/bootstrap.min.js"></script>	

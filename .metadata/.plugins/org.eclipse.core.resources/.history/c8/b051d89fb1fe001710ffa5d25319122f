@@ -17,6 +17,7 @@
      <link href="static/css/style.css" rel="stylesheet">
     
 </head>
+<body>
 	<div role="navigation">
 		<div class="navbar navbar-inverse">
 			<a href="/" class="navbar-brand">Home</a>
@@ -38,7 +39,7 @@
 	<h3>Products List</h3>
 	<hr>
 	<div class="table-responsive">
-		<table class="table table-stripped table-bordered text-center">
+		<table class="table table-stripped table-bordered">
 		<tr>
 			<th>Id</th>
 			<th>RAM</th>
