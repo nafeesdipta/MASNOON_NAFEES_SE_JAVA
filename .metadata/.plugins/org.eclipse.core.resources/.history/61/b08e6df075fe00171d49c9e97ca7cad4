@@ -18,18 +18,16 @@ public class Task implements Serializable{
 	private int id;
 	private String ram;
 	private String motherboard;
-	private String graphicscard;
 	private boolean complete;
 	
 	public Task(){
 		
 	}
 
-	public Task(String ram, String motherboard, String graphicscard, boolean complete) {
+	public Task(String ram, String motherboard, boolean complete) {
 		super();
 		this.ram = ram;
 		this.motherboard = motherboard;
-		this.graphicscard = graphicscard;
 		this.complete = complete;
 	}
 
@@ -57,14 +55,6 @@ public class Task implements Serializable{
 		this.motherboard = motherboard;
 	}
 
-	public String getGraphicscard() {
-		return graphicscard;
-	}
-
-	public void setGraphicscard(String graphicscard) {
-		this.graphicscard = graphicscard;
-	}
-
 	public boolean isComplete() {
 		return complete;
 	}
@@ -75,9 +65,7 @@ public class Task implements Serializable{
 
 	@Override
 	public String toString() {
-		return "Task [id=" + id + ", ram=" + ram + ", motherboard=" + motherboard + ", graphicscard=" + graphicscard
-				+ ", complete=" + complete + "]";
+		return "Task [id=" + id + ", ram=" + ram + ", motherboard=" + motherboard + ", complete=" + complete + "]";
 	}
-
 	
 }

@@ -31,9 +31,6 @@ public class FirstController {
 	return "Task saved!";
 	}
 	
-	@GetMapping("/delete-task")
-	public String saveTask(@RequestParam int id){
-		taskService.delete(id);
-		return "Task deleted!";
-	}
+
+}
 }

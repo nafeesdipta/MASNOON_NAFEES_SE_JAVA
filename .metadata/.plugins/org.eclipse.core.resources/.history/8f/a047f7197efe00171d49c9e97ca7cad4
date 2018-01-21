@@ -24,14 +24,14 @@
 <body>
 	<div role="navigation">
 		<div class="navbar navbar-inverse">
-			<a href="/" class="navbar-brand">Home</a>
+			<a href="/" class="navbar-brand">Bootsample</a>
 	</div>
 	</div>
+	
+</body>
 
 	<script src="static/js/jquery-1.11.1.min.js"></script>
-	<script src="static/js/bootstrap.min.js"></script>	
-
-</body>
+	<script src="static/js/bootstrap.min.css"></script>	
 </html>
 
 
