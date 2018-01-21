@@ -1,0 +1,5 @@
+package com.sweet.springboot.sec;
+
+public class SecurityConfig {
+
+}

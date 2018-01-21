@@ -1,0 +1,10 @@
+package com.sweet.springboot;
+
+@Configuration
+public class BeanConfig {
+ 
+    @Bean
+    public AuthenticationSuccessHandler authenticationSuccessHandler() {
+        return new AuthenticationSuccessHandlerImpl();
+    }
+}
