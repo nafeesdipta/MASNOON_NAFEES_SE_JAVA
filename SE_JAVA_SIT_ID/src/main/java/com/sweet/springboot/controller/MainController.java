@@ -22,6 +22,7 @@ public class MainController {
 	@GetMapping("/")
 	public String home(HttpServletRequest request){
 		request.setAttribute("tasks", taskService.findAll() );
+		request.setAttribute("task2", taskService.findram() );
 		return "index";
 	}
 	

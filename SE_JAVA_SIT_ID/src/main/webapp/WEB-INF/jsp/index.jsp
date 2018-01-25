@@ -17,6 +17,7 @@
      <link href="static/css/style.css" rel="stylesheet">
     
 </head>
+<body style="background-image:url(<c:url value='/resources/img/a.jpg'/>)">
 	<div role="navigation">
 		<div class="navbar navbar-inverse">
 			<a href="/" class="navbar-brand">Home</a>

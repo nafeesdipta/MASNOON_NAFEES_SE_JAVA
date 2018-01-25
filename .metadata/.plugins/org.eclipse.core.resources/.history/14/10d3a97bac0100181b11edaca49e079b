@@ -1,0 +1,5 @@
+package com.sweet.springboot.model;
+
+public class Ram {
+
+}
