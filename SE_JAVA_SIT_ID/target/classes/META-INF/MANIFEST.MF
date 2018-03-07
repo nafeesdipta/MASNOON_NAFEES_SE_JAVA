@@ -3,7 +3,7 @@ Implementation-Title: SE_JAVA_SIT
 Implementation-Version: 0.0.1-SNAPSHOT
 Built-By: nafees
 Implementation-Vendor-Id: Sweet_Itech
-Build-Jdk: 1.8.0_151
+Build-Jdk: 1.8.0_141
 Implementation-URL: http://projects.spring.io/spring-boot/SE_JAVA_SIT_
  ID/
 Created-By: Maven Integration for Eclipse

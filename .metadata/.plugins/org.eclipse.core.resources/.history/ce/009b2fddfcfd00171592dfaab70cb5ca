@@ -1,5 +1,0 @@
-package com.sweet.springboot.inter;
-
-public interface TaskRepo {
-
-}

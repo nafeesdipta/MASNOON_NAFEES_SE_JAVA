@@ -11,7 +11,8 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import com.sweet.springboot.model.Task;
+import com.sweet.springboot.model.*;
+import com.sweet.springboot.service.RamService;
 import com.sweet.springboot.service.TaskService;
 
 @Controller
@@ -19,18 +20,21 @@ public class MainController {
 	
 	@Autowired
 	private TaskService taskService;
+	@Autowired
+	private RamService ramservice;
 	@GetMapping("/")
 	public String home(HttpServletRequest request){
 		request.setAttribute("tasks", taskService.findAll() );
-		request.setAttribute("task2", taskService.findram() );
+		//request.setAttribute("task2", ramservice.findAll() );
 		return "index";
 	}
 	
 	@GetMapping("/showproducts")
 	public String allTasks(HttpServletRequest request){
-		request.setAttribute("tasks", taskService.findAll());
-		request.setAttribute("mode", "MODE_TASKS");
-		return "index";
+		//request.setAttribute("tasks", taskService.findAll());
+		request.setAttribute("task2", ramservice.findAll() );
+		//request.setAttribute("mode", "MODE_TASKS");
+		return "index2";
 	}
 	
 	@GetMapping("/newproduct")
