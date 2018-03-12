@@ -20,15 +20,16 @@ public class MainController {
 	
 	@Autowired
 	private TaskService taskService;
+	@Autowired
 	private RamService ramservice;
 	@GetMapping("/")
 	public String home(HttpServletRequest request){
 		request.setAttribute("tasks", taskService.findAll() );
-		//request.setAttribute("task2", ramservice.findAll() );
+		request.setAttribute("task2", ramservice.findAll() );
 		return "index";
 	}
 	
-	@PostMapping("/showproducts")
+	@GetMapping("/showproducts")
 	public String allTasks(HttpServletRequest request){
 		//request.setAttribute("tasks", taskService.findAll());
 		request.setAttribute("task2", ramservice.findAll() );

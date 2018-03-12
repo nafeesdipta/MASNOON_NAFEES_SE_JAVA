@@ -1,7 +1,4 @@
-# MASNOON_NAFEES_SE_JAVA_SIT
-                            ///////////////////// Sweet iTech ////////////////////
 
-                                        Technical Assessment Report
                                         
                                         
                     I have connected MySql Database to the project and also able to show table values
